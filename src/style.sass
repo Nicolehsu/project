@@ -1,0 +1,117 @@
+$color_blue: #125D98
+
+*
+  font-family: 'Oswald', sans-serif,'微軟正黑體'
+  // border: solid 1px
+  // debug
+  // header
+  //   display: none
+  // section
+  //   display: none
+  // section#section_future
+  //   display: block
+
+body
+  height: 1000px
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+
+nav.navbar
+  transition: 0.5s
+  
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  a
+    color: grey
+    transition: 0.5s
+    &:hover
+      color: $color_blue
+  
+header.jumbotron
+  text-align: center
+  background-image: url(https://i.imgur.com/5fVTbn6.jpg)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  .container
+    color: white
+    padding: 200px 0px
+  hr
+    max-width: 50px
+    border: solid 2px $color_blue
+  h4
+    color: rgba(white,0.5)
+    font-weight: normal
+    
+section
+  padding: 50px 0px
+    
+section#section_ask
+  background-color: $color_blue
+  .col-sm-5.img
+    background-image: url(https://i.imgur.com/JTDtVy9.jpg)
+    background-size: cover
+    background-position: center
+    height: 350px
+    // mix-blend-mode: multiply
+  h2
+    margin-top: 130px
+    padding: 0px 20px
+    color: white
+  p
+    margin-top: 0px
+    padding: 0px 20px
+    color: white
+    
+section#section_about,section#section_story
+  img
+    width: 100%
+  .img_wrap
+    overflow: hidden
+    
+section#section_future
+  img
+    width: 100%
+  i
+    font-size: 30px
+  .feature
+    padding-top: 10px
+    padding-bottom: 10px
+    
+footer.jumbotron
+  text-align: center
+  background-image: url(https://i.imgur.com/5fVTbn6.jpg)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  .container
+    color: white
+    padding: 60px 0px
+    .button
+    width: 200px
+    margin-top: 40px
+    margin-right: auto
+    margin-bottom: auto
+    margin-left: auto
+    padding-top: 20px
+    padding-right: 10px
+    padding-bottom: 20px
+    padding-left: 10px
+    text-align: center
+    vertical-align: middle
+    border-radius: 0px
+    text-transform: uppercase
+    font-weight: bold
+    letter-spacing: 2px
+    border: 3px solid #FFFFFF
+    color: #FFFFFF
+    transition: all 0.3s linear
+
+    &:hover
+      background-color: #FEFEFE
+      color: #C4C4C4
+      cursor: pointer
+    
+  .copyright
+    color: white
